@@ -1,0 +1,56 @@
+.moreTargetsTitle {
+    margin-bottom: 15px;
+    font-size: 12px;
+    color:gray;
+}
+.moreTargetsOverlay{
+    opacity: .5;
+    filter:alpha(opacity=50);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.moreTargets {
+    width:406px;
+    background-color:#fff;
+    padding:10px;
+    border:1px solid #41a7ce;
+    position:absolute;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+.moreTargets h2 {
+    border-bottom:1px solid #32b6e8;
+    margin:15px 0;
+    padding-bottom:5px;
+    font-size: 12px;
+    clear:both;
+}
+.moreTargets ul li {
+    float: left;
+    width: 135px;
+}
+.moreTargets h2.fline{
+    font-weight:normal;
+    font-size: 12px;
+    text-align: right;
+    margin-top:10px;
+}
+.moreTargets .btnWrapper {
+    text-align: right;
+}
+.btnWrapper .btnSubmit {
+    margin-right:10px;
+    background-color:#0784d7;
+    border:1px solid #336c8a;
+    color:#fff;
+    cursor:pointer;
+    font-size:14px;
+}
+.btnWrapper .btnCancel{
+    border:1px solid #999;
+    background-color:#b6b6b6;
+    color:#333;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:bold;
+}
